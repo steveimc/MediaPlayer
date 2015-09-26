@@ -2,6 +2,7 @@ var mySong;
 var id = 0;
 var songName;
 
+// This js file has all the inputs to listen to
 $(document).ready(function() {
 
 	$("#play").click(function()
