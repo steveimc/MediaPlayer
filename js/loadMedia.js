@@ -48,9 +48,11 @@ function createPlayList()
     newSongRow +='<td>'+(i+1)+'</td>';
     newSongRow +='<td>'+song+'</td>';
 
+/*
     var newSong = new buzz.sound(songPath+playList[i]);
     var songDuration = buzz.toTimer( newSong.load().getDuration());
     newSongRow +='<td>'+songDuration+'</td>';
+*/
     newSongRow += "</tr>";
 
     $('#song-list').append(newSongRow);
