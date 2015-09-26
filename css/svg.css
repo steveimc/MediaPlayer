@@ -1,0 +1,53 @@
+.material-icons
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10;
+  margin-right: 10;
+  font-size: 2em;
+  color: #FFFFFF;
+  cursor  : pointer;
+}
+.material-icons:hover
+{
+  color: #031634;
+}
+
+#upload
+{
+  float: right;
+  font-size: 2em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#upload:hover
+{
+  color: #036564;
+}
+
+@media only screen and (min-width: 600px)
+{
+  .material-icons
+  {
+    margin-left: 10;
+    margin-right: 10;
+    font-size: 3em;
+    color: #FFFFFF;
+    cursor  : pointer;
+  }
+
+  #upload
+  {
+    float: right;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
